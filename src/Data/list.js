@@ -23,7 +23,7 @@ const list = [
     name: "Suruchi Sangha New-Alipore",
     location: "https://www.google.com/maps?q=suruchi+sangha+Club",
     area: 'south',
-    img: {ekdalia}
+    img: {suruchi}
   },
   {
     name: "Singhi Park Sarbojanin Durga Puja",
