@@ -1,121 +1,136 @@
-const list=[
-    
-    {
-        name: "Deshapriya Park Durga Puja",
-        location: "https://www.google.com/maps?q=Deshapriya+Park+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Ekdalia Evergreen Club",
-        location: "https://www.google.com/maps?q=Ekdalia+Evergreen+Club",
-        area:'south'
-    },
-    {
-        name: "Singhi Park Sarbojanin Durga Puja",
-        location: "https://www.google.com/maps?q=Singhi+Park+Sarbojanin+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Ballygunge Cultural Durga Puja",
-        location: "https://www.google.com/maps?q=Ballygunge+Cultural+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Badamtala Ashar Sangha",
-        location: "https://www.google.com/maps?q=Badamtala+Ashar+Sangha",
-        area:'south'
-    },
-    {
-        name: "Tridhara Sammilani Durga Puja",
-        location: "https://www.google.com/maps?q=Tridhara+Sammilani+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Hindustan Park Sarbojanin Durga Puja",
-        location: "https://www.google.com/maps?q=Hindustan+Park+Sarbojanin+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Bhawanipur 75 Pally Durga Puja",
-        location: "https://www.google.com/maps?q=Bhawanipur+75+Pally+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Selimpur Pally Durga Puja",
-        location: "https://www.google.com/maps?q=Selimpur+Pally+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Santoshpur Trikon Park Durga Puja",
-        location: "https://www.google.com/maps?q=Santoshpur+Trikon+Park+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Santoshpur Lake Pally Durga Puja",
-        location: "https://www.google.com/maps?q=Santoshpur+Lake+Pally+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Kashinath Mullick Durga Puja",
-        location: "https://www.google.com/maps?q=Kashinath+Mullick+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Jodhpur Park Durga Puja",
-        location: "https://www.google.com/maps?q=Jodhpur+Park+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Chetla Agrani Club Durga Puja",
-        location: "https://www.google.com/maps?q=Chetla+Agrani+Club+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Chakraberia Sarbojanin Durgotsav",
-        location: "https://www.google.com/maps?q=Chakraberia+Sarbojanin+Durgotsav",
-        area:'south'
-    },
-    {
-        name: "95 Pally Durga Puja, Mukundapur",
-        location: "https://www.google.com/maps?q=95+Pally+Durga+Puja,+Mukundapur",
-        area:'south'
-    },
-    {
-        name: "Badamtala Sporting Club Durga Puja",
-        location: "https://www.google.com/maps?q=Badamtala+Sporting+Club+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Barisha Club Durga Puja",
-        location: "https://www.google.com/maps?q=Barisha+Club+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Kalighat Milan Sangha Durga Puja",
-        location: "https://www.google.com/maps?q=Kalighat+Milan+Sangha+Durga+Puja",
-        area:'south'
-    },
-    {
-        name: "Naktala Udayan Sangha",
-        location: "https://www.google.com/maps?q=Naktala+Udayan+Sangha",
-        area:'south'
-    },
-    {
-        name: "Khiddirpore 25 Pally",
-        location: "https://www.google.com/maps?q=Khiddirpore+25+Pally,+Kolkata",
-        area:'south'
-    },
-    {
-        name: "Khiddirpore 66 Pally",
-        location: "https://www.google.com/maps?q=Khiddirpore+66+Pally,+Kolkata",
-        area:'south'
-    },
-    {
-        name: "Mudiali Club",
-        location: "https://www.google.com/maps?q=Mudiali+Club,+Kolkata",
-        area:'south'
-    },
-    
+import desha from '../media/pandal-imgs/desho-min.webp'
+import college from '../media/pandal-imgs/college-min.webp'
+import chaltabagan from '../media/pandal-imgs/chaltabagan-min.webp'
+import ekdalia from '../media/pandal-imgs/ekdalia-min.webp'
+import suruchi from '../media/pandal-imgs/suruchi-min.webp'
+import santosh from '../media/pandal-imgs/santosh-min.webp'
+
+const list = [
+
+  {
+    name: "Deshapriya Park Durga Puja",
+    location: "https://www.google.com/maps?q=Deshapriya+Park+Durga+Puja",
+    area: 'south',
+    img: {desha}
+  },
+  {
+    name: "Ekdalia Evergreen Club",
+    location: "https://www.google.com/maps?q=Ekdalia+Evergreen+Club",
+    area: 'south',
+    img: {ekdalia}
+  },
+  {
+    name: "Suruchi Sangha New-Alipore",
+    location: "https://www.google.com/maps?q=suruchi+sangha+Club",
+    area: 'south',
+    img: {ekdalia}
+  },
+  {
+    name: "Singhi Park Sarbojanin Durga Puja",
+    location: "https://www.google.com/maps?q=Singhi+Park+Sarbojanin+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Ballygunge Cultural Durga Puja",
+    location: "https://www.google.com/maps?q=Ballygunge+Cultural+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Badamtala Ashar Sangha",
+    location: "https://www.google.com/maps?q=Badamtala+Ashar+Sangha",
+    area: 'south'
+  },
+  {
+    name: "Tridhara Sammilani Durga Puja",
+    location: "https://www.google.com/maps?q=Tridhara+Sammilani+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Hindustan Park Sarbojanin Durga Puja",
+    location: "https://www.google.com/maps?q=Hindustan+Park+Sarbojanin+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Bhawanipur 75 Pally Durga Puja",
+    location: "https://www.google.com/maps?q=Bhawanipur+75+Pally+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Selimpur Pally Durga Puja",
+    location: "https://www.google.com/maps?q=Selimpur+Pally+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Santoshpur Trikon Park Durga Puja",
+    location: "https://www.google.com/maps?q=Santoshpur+Trikon+Park+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Santoshpur Lake Pally Durga Puja",
+    location: "https://www.google.com/maps?q=Santoshpur+Lake+Pally+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Kashinath Mullick Durga Puja",
+    location: "https://www.google.com/maps?q=Kashinath+Mullick+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Jodhpur Park Durga Puja",
+    location: "https://www.google.com/maps?q=Jodhpur+Park+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Chetla Agrani Club Durga Puja",
+    location: "https://www.google.com/maps?q=Chetla+Agrani+Club+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Chakraberia Sarbojanin Durgotsav",
+    location: "https://www.google.com/maps?q=Chakraberia+Sarbojanin+Durgotsav",
+    area: 'south'
+  },
+  {
+    name: "95 Pally Durga Puja, Mukundapur",
+    location: "https://www.google.com/maps?q=95+Pally+Durga+Puja,+Mukundapur",
+    area: 'south'
+  },
+  {
+    name: "Badamtala Sporting Club Durga Puja",
+    location: "https://www.google.com/maps?q=Badamtala+Sporting+Club+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Barisha Club Durga Puja",
+    location: "https://www.google.com/maps?q=Barisha+Club+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Kalighat Milan Sangha Durga Puja",
+    location: "https://www.google.com/maps?q=Kalighat+Milan+Sangha+Durga+Puja",
+    area: 'south'
+  },
+  {
+    name: "Naktala Udayan Sangha",
+    location: "https://www.google.com/maps?q=Naktala+Udayan+Sangha",
+    area: 'south'
+  },
+  {
+    name: "Khiddirpore 25 Pally",
+    location: "https://www.google.com/maps?q=Khiddirpore+25+Pally,+Kolkata",
+    area: 'south'
+  },
+  {
+    name: "Khiddirpore 66 Pally",
+    location: "https://www.google.com/maps?q=Khiddirpore+66+Pally,+Kolkata",
+    area: 'south'
+  },
+  {
+    name: "Mudiali Club",
+    location: "https://www.google.com/maps?q=Mudiali+Club,+Kolkata",
+    area: 'south'
+  },
+
   {
     name: "Bagbazar Sarbojanin Durgotsav",
     location: "https://www.google.com/maps?q=Bagbazar+Sarbojanin+Durgotsav",
@@ -129,7 +144,8 @@ const list=[
   {
     name: "College Square Durga Puja",
     location: "https://www.google.com/maps?q=College+Square+Durga+Puja",
-    area: "north"
+    area: "north",
+    img: {college}
   },
   {
     name: "Ahiritola Sarbojanin Durgotsav",
@@ -164,12 +180,15 @@ const list=[
   {
     name: "Santosh Mitra Square Durga Puja",
     location: "https://www.google.com/maps?q=Santosh+Mitra+Square+Durga+Puja",
-    area: "north"
+    area: "north",
+    img: {santosh}
   },
   {
     name: "Chaltabagan Lohapatty Durga Puja",
     location: "https://www.google.com/maps?q=Chaltabagan+Lohapatty+Durga+Puja",
-    area: "north"
+    area: "north",
+    img: {chaltabagan}
+
   },
   {
     name: "Dum Dum Park Tarun Sangha",
@@ -206,7 +225,7 @@ const list=[
     location: "https://www.google.com/maps?q=Kashi+Bose+Lane+Durga+Puja",
     area: "north"
   },
-  
+
   {
     name: "Salt Lake FD Block Durga Puja",
     location: "https://www.google.com/maps?q=Salt+Lake+FD+Block+Durga+Puja"
